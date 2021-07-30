@@ -26,12 +26,14 @@ class Main extends React.Component {
     const { advice } = this.state;
 
     return (
-      <div className="app">
-        <div className="card">
-          <h1 classname="heading">{advice}</h1>
+      <div className="hero">
+        <div className="hero__card">
+          <h1 className="hero__heading">{advice}</h1>
+          <div>
           <button className="button" onClick={this.fetchAdvice}>
-            <span> GIVE ME ADVICE! </span>
+            <span className="button__span"> GIVE ME ADVICE! </span>
           </button>
+          </div>
         </div>
       </div>
     );
