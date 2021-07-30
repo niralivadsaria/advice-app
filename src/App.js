@@ -1,9 +1,14 @@
 import React from "react";
+import "./App.css";
+import Main from "./components/Main/Main";
+// import axios from "axios";
 
-class App extends React.Component {
-  render() {
-    return <h1> App</h1>;
-  }
+function App() {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
